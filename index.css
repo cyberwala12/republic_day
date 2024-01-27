@@ -1,0 +1,43 @@
+*{
+    background: black;   
+}
+p{
+    color: white;
+    font-size: 70px;
+}
+.c{
+    height: 400px;
+    width: 400px;
+    border-radius: 50%;
+    display: inline-block;
+    animation-name: nitish;
+    animation-duration: 2s;
+    animation-timing-function: ease-in;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+.d1{
+    background:rgb(253, 69, 3) ;
+    position: relative;
+    left: 200px;
+}
+.d2{
+    background: white;
+    position: relative;
+    left: 400px;
+}
+.d3{
+    background: green;
+    position: relative;
+    left: 600px;
+}
+@keyframes nitish{
+    0%{
+        transform: translateY(0px);
+        opacity: .5;
+    }
+    100%{
+        transform: translateY(500px);
+        opacity: 1;
+    }
+}
